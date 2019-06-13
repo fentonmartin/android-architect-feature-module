@@ -13,7 +13,17 @@ public class MainActivity extends BaseActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        
+
         presenter = new MainPresenter();
+
+        /* Call loadData */
+        loadData();
+    }
+
+    private void loadData(){
+        /* Call loadMain function */
+        presenter.loadMain();
+        /* Call loadMainData function */
+        presenter.loadMainData();
     }
 }
