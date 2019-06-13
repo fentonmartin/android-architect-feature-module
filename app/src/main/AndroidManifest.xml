@@ -20,6 +20,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".feature.register.RegisterActivity" />
+        <activity android:name=".feature.something.subanything.SubAnythingActivity" />
+        <activity android:name=".feature.something.subfeature.SubFeatureActivity" />
+        <activity android:name=".feature.something.subsomething.SubSomethingActivity" />
     </application>
 
 </manifest>
