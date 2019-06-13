@@ -1,9 +1,10 @@
-package fen.code.architect;
+package fen.code.architect.feature.menu;
 
-import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
+import fen.code.architect.R;
+import fen.code.architect.base.BaseActivity;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
